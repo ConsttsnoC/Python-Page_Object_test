@@ -15,6 +15,7 @@
     <img src="https://img.shields.io/badge/Python-3.10.7-green">
     <img src="https://img.shields.io/badge/Selenium-4.1.0-yellow">
     <img src="https://img.shields.io/badge/PyTest-7.1.2-red">
+    <img src="https://img.shields.io/badge/Page Object Model-blue">
 </p>
 
  <div>
@@ -29,11 +30,20 @@
 <li>Используется <code>selenium - 4.1.0</code></li>
 <br>
 <li>Используется <code>pytest - 7.1.2</code></li>
+<br>
+<li>Используется <code>Page Object Model</code></li>
 
 
 
 <h3><img src="https://img.icons8.com/dusk/64/000000/rocket.png" height="30"/> Инструкция по работе с приложением <img src="https://img.icons8.com/dusk/64/000000/rocket.png" height="30"/></h3>
 <ul>
-    <li>Запустите виртуальное окружение</li>
-    <li>Установите пакеты используя <code>requirements.txt</code>
+    <li>Создайте рабочую папку</li>
+    <li>Скопируйте URL-адрес репозитория</li>
+    <li>Откройте ТЕРМИНАЛ. Измените текущий рабочий каталог с помощью команды<code>cd</code> на рабочую папку</li> 
+    <li>Введите git clone и вставьте URL-адрес, скопированный ранее</li>
+    <li>Запустите виртуальное окружение используя команды ниже:</li>
+    <li>создаем виртуальное окружение <code>python -m venv +---> (название)</code></li>
+    <li>С помощью <code>cd</code> перейдите в папку <code>Scripts</code></li>
+    <li>Введите команду <code>activate</code></li>
+    <li>Установите пакеты используя <code>python -m pip install -r requirements.txt</code> 
 </ul>
