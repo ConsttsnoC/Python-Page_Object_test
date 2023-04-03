@@ -1,5 +1,8 @@
 import math
-from selenium.common.exceptions import NoSuchElementException, NoAlertPresentException
+from telnetlib import EC
+
+from selenium.common.exceptions import NoSuchElementException, NoAlertPresentException, TimeoutException
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage():
@@ -33,5 +36,7 @@ class BasePage():
             alert.accept()
         except NoAlertPresentException:
             print("No second alert presented")
+
+
 
 
